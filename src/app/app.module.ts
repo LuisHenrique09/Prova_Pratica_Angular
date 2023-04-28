@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CoinComponent } from './coin/coin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoinComponent
   ],
   imports: [
     BrowserModule,
